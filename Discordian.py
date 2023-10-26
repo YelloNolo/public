@@ -49,13 +49,16 @@ async def on_voice_state_update(member, before, after):
             await play_video_audio(voice_client)
 
 
-# Convert mp4 to mp3, (video playback is work in progress)
+# Convert '.mp4' to '.mp3', (video playback is work in progress)
 async def play_video_audio(voice_client):
     for filename in os.listdir(VIDEO_FOLDER):
         if filename.endswith(".mp4"):
             video_path = os.path.join(VIDEO_FOLDER, filename)
             audio_path = video_path.replace(".mp4", ".mp3")
-            ffmpeg.input(video_path).output(audio_path).run(overwrite_output=True)  # Extract audio with overwrite
+            # Extract audio from '.mp4'
+            ffmpeg.input(video_path).output(audio_path).run(overwrite_output=True)  # Extract audio from '.mp4' with overwrite
+            # Play extracted audio in voice channel
             voice_client.play(discord.FFmpegPCMAudio(executable="ffmpeg", source=audio_path))
+
 
 bot.run(TOKEN)
