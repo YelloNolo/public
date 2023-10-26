@@ -32,7 +32,7 @@ Welcome the Discord Stalker BOT into your home as your new and trusted Discord c
 
 4. Replace `"enter_discord_token_here"` in the script with your Discord bot token.
 
-5. Create a `/videos` folder in the main folder, add any mp4. Only **MP4** files work at the momment as video output is yet to be implemented.
+5. In the `/videos` folder, add any mp4. Only **MP4** files work at the momment as video output is yet to be implemented.
 
 6. Run the script:
 
@@ -50,7 +50,7 @@ Welcome the Discord Stalker BOT into your home as your new and trusted Discord c
 Feel like adding more to the Discord BOT's repertoire? Have ideas for adding more to the "experience"? Contribute to this project by opening issues or pull requests. Let's create *hehehe*, together!
 
 ## Notes
-- The current video in the `/videos` folder is: [YouTube Link](https://www.youtube.com/watch?v=GA4JThRBvck) ( That is if I can upload it '~' )
+- The current video in the `/videos` folder is: [YouTube Link](https://www.youtube.com/watch?v=GA4JThRBvck)
 - I've yet to test with multiple users. So hopefully it works.
 
 <br></br>
