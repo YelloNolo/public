@@ -1,6 +1,6 @@
-# Discord Stalker BOT - A "Friendly" Discord Companion
+# Discord Mic BOT - A "Friendly" Discord Companion
 
-Welcome the Discord Stalker BOT into your home as your new and trusted Discord companion! This bot keeps an eye on your voice channels for "security" (*promise*)!
+Welcome the Discord Mic BOT into your home as your new and trusted Discord companion! This bot keeps an eye on your voice channels for "security" (*promise*)!
 
 ## Features
 
